@@ -44,7 +44,7 @@ export default async function handler(
         <p><strong>Message:</strong></p>
         <p>${message.replace(/\n/g, '<br>')}</p>
       `,
-      replyTo: email,
+      reply_to: email,
     })
 
     if (error) {
